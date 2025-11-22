@@ -1,0 +1,177 @@
+[
+      {
+        "title": "Welcome Arbab Nasrullah",
+        "subtitle": "Let's Make Tech Tangible",
+        "image": "me.png",
+        "content": "Hi! I'm Arbab Nasrullah. Today we'll explore how everyday input devices shape interaction, accessibility, and creativity. Expect short demos, hands-on tips, and a quick quiz at the end.",
+        "points": [
+          "Quick background: who I am and what I build",
+          "What you'll learn: when to choose each input device",
+          "Interactive demos and Q&A get ready to try things"
+        ],
+        "notes": "Warm greeting; invite one quick show of hands about devices people use most. Mention interactive demo and quiz."
+      },
+  {
+    "title": "Input Devices and Their Uses",
+    "subtitle": "A Modern Interactive Presentation",
+    "image": "title.png",
+    "content": "Welcome! Explore the world of input devices and how they shape our digital experiences.",
+    "notes": "Start with an engaging greeting. Make eye contact with the audience. Explain that we'll cover various input devices used daily.",
+    "type": "title"
+  },
+  {
+    "title": "Introduction to Input Devices",
+    "image": "introduction.png",
+    "content": "Input devices are the bridges between humans and machines keyboards, mice, touchscreens, microphones, cameras and sensors translate real-world actions into digital commands.",
+    "points": [
+      "What an input device does: senses, translates, transmits",
+      "Why choice matters: accuracy, speed, accessibility",
+      "Examples you'll see: typing, pointing, touch, voice, and sensors"
+    ],
+    "notes": "Give a concise definition with everyday examples. Mention why ergonomics and accessibility matter when choosing devices."
+  },
+  {
+    "title": "Importance of Input Devices",
+    "image": "importance.png",
+    "content": "Input devices are essential for communication between humans and computers, enabling efficient data entry, control, and interaction."
+  },
+  {
+    "title": "Keyboard",
+    "image": "keyboard.png",
+    "content": "A keyboard is a primary input device used to enter text, numbers, and commands into a computer.",
+    "points": [
+      "Types: mechanical, membrane, scissor-switch",
+      "Shortcuts increase productivity",
+      "Key rollover & latency affect performance",
+      "Accessible options: large-key, braille overlays"
+    ]
+  },
+  {
+    "title": "Mouse",
+    "image": "mouse.png",
+    "content": "A mouse is a pointing device that detects two-dimensional motion, allowing users to interact with graphical elements.",
+    "points": [
+      "Optical vs laser sensors",
+      "DPI and polling rate (gaming)",
+      "Ergonomics: ambidextrous and vertical designs",
+      "Alternatives: trackball, touchpad"
+    ]
+  },
+  {
+    "title": "Touchscreen",
+    "image": "touchscreen.png",
+    "content": "A touchscreen allows users to interact directly with what is displayed, using a finger or stylus.",
+    "points": [
+      "Capacitive vs resistive technology",
+      "Multi-touch gestures enable complex interactions",
+      "Stylus support improves precision",
+      "Common on phones, kiosks, ATMs"
+    ]
+  },
+  {
+    "title": "Microphone",
+    "image": "microphone.png",
+    "content": "A microphone captures audio input, enabling voice commands, recording, and communication.",
+    "points": [
+      "Types: condenser, dynamic, MEMS",
+      "Polar patterns: cardioid, omni, bidirectional",
+      "Use in speech recognition and streaming",
+      "Placement and environment affect quality"
+    ]
+  },
+  {
+    "title": "Scanner",
+    "image": "scanner.png",
+    "content": "A scanner digitizes physical documents and images, converting them into electronic format.",
+    "points": [
+      "Flatbed vs sheet-fed scanners",
+      "Optical resolution (DPI) matters for clarity",
+      "OCR converts images to editable text",
+      "Used in archiving and document workflows"
+    ]
+  },
+  {
+    "title": "Webcam",
+    "image": "webcam.png",
+    "content": "A webcam captures video and images, commonly used for video conferencing and streaming.",
+    "points": [
+      "Resolution & framerate (720p, 1080p, 30/60fps)",
+      "Auto-focus and low-light performance",
+      "Built-in microphone vs external mic",
+      "Privacy shutters and security"
+    ]
+  },
+  {
+    "title": "Joystick / Game Controller",
+    "image": "joystick.png",
+    "content": "Joysticks and game controllers provide input for gaming and simulations, offering precise control.",
+    "points": [
+      "Analog vs digital inputs",
+      "Haptic feedback and triggers",
+      "Customization: remapping and macros",
+      "Used in simulation, robotics, and gaming"
+    ]
+  },
+  {
+    "title": "Barcode Scanner",
+    "image": "barcode.png",
+    "content": "A barcode scanner reads printed barcodes, translating them into digital data for inventory and sales.",
+    "points": [
+      "1D vs 2D (QR) barcode technologies",
+      "Laser vs imager scanners",
+      "Common in retail and logistics",
+      "Integration with POS and inventory systems"
+    ]
+  },
+  {
+    "title": "Light Pen / Stylus",
+    "image": "lightpen.png",
+    "content": "A light pen or stylus allows users to draw or select objects directly on a screen.",
+    "points": [
+      "Pressure sensitivity improves control",
+      "Tilt and angle detection in advanced pens",
+      "Used by designers and illustrators",
+      "Pair with graphics tablet or touchscreen"
+    ]
+  },
+  {
+    "title": "Graphics Tablet",
+    "image": "tablet.png",
+    "content": "A graphics tablet enables artists and designers to create digital artwork with precision.",
+    "points": [
+      "Pen pressure levels (e.g., 2048, 8192)",
+      "Active area and resolution",
+      "Wacom vs vendor alternatives",
+      "Shortcut buttons speed workflow"
+    ]
+  },
+  {
+    "title": "Fingerprint Scanner",
+    "image": "fingerprint.png",
+    "content": "A fingerprint scanner provides secure authentication by reading unique fingerprint patterns.",
+    "points": [
+      "Optical vs capacitive sensors",
+      "Used for biometric authentication",
+      "Security vs privacy considerations",
+      "Integration in mobile devices and locks"
+    ]
+  },
+  {
+    "title": "Summary / Conclusion",
+    "image": "summary.png",
+    "content": "Input devices are vital for digital interaction, each serving unique purposes in our daily lives.",
+    "points": [
+      "Each device has strengths for specific tasks",
+      "Accessibility and ergonomics are important",
+      "Future trends: voice, gesture, biometrics",
+      "Choose the right device for the user and task"
+    ]
+  },
+  {
+    "title": "Thank You!",
+    "subtitle": "Questions?",
+    "image": "thankyou.png",
+    "content": "Thank you for your attention! Feel free to ask any questions.",
+    "type": "ending"
+  }
+]

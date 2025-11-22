@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Devices and Their Uses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Progress Bar -->
+  <div id="progress-bar" class="progress-bar"></div>
+  
+  <!-- Control Panel -->
+  <div id="control-panel" class="control-panel">
+    <button id="themeToggle" title="Toggle Theme" class="control-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+    <button id="toggleNotes" title="Speaker Notes" class="control-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    </button>
+    <button id="speakToggle" title="Speak Slide Titles" class="control-btn" aria-pressed="false">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9v6h4l5 4V5L7 9H3z"/></svg>
+    </button>
+  </div>
+
+  <button id="fullscreenBtn" title="Toggle Fullscreen" aria-label="Fullscreen" class="fullscreen-btn">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#e94560" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+  </button>
+  
+  <!-- Slide Thumbnails -->
+  <div id="thumbnail-panel" class="thumbnail-panel hidden">
+    <div class="thumbnail-header">Slides</div>
+    <div id="thumbnails" class="thumbnails-container"></div>
+  </div>
+  <!-- Speaker Notes Panel -->
+  <div id="notes-panel" class="notes-panel hidden">
+    <div class="notes-header">Speaker Notes</div>
+    <div id="notes-content" class="notes-content"></div>
+  </div>
+  
+  <div id="presentation">
+    <!-- Slides will be injected here by JavaScript -->
+  </div>
+
+  <!-- Intro overlay (shown the first time) -->
+  <div id="intro-overlay" class="intro-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="intro-card">
+      <div class="intro-greeting" aria-hidden="true">Hello</div>
+      <div class="intro-title">Welcome to<br><strong>Input Devices & Their Uses</strong></div>
+      <div class="intro-sub">Presented by <strong>Arbab Nasrullah</strong></div>
+      <div class="intro-actions">
+        <button id="getStartedBtn" class="control-btn">Get Started</button>
+        <label class="intro-chk"><input type="checkbox" id="dontShowAgain"> Don't show again</label>
+      </div>
+      <div class="intro-hint">Press <kbd>Enter</kbd> or click "Get Started" to continue</div>
+    </div>
+  </div>
+  <div id="nav-buttons">
+    <button id="prevBtn" aria-label="Previous Slide" class="svg-btn">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0f3460" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div id="slide-counter" class="slide-counter">1 / 17</div>
+    <button id="nextBtn" aria-label="Next Slide" class="svg-btn">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0f3460" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div>
+  <footer>
+    Presented by Arbab Nasrullah
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
